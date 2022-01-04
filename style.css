@@ -20,6 +20,7 @@ h1{
 }
 .half_width h1{
     font-size: 50px;
+    
 }
 .half_width .orange{
     color:orange;
@@ -37,6 +38,12 @@ h1{
     color:white;
     text-transform: uppercase;
     font-weight: 700;
+    transition:all linear 1s ;
+}
+.half_width .link_button:hover{
+    box-shadow: 10px 10px 30px turquoise;
+    border-radius:7% 7% 7% 7%/50% 50% 50% 50%;
+    background: skyblue;
 }
 /* header part end */
 
@@ -94,7 +101,16 @@ h1{
     border-left: 7px solid;
     border-image:linear-gradient(blue,cyan);
     border-image-slice: 1;
+    transition: all linear .5s;
  
+}
+#exp_bd:hover {
+	background-image: linear-gradient(#16c5e2,#979cb8);
+	color: #fff;
+	border: 7px solid #478fff;
+}
+#exp_bd:hover p{
+    color:#fff;
 }
 #exp_bd1{
     border-left: 7px solid;
@@ -102,6 +118,15 @@ h1{
     border-image-slice: 1;
     margin-left:5%;
     margin-right:5%;
+    transition: all linear .5s;
+}
+#exp_bd1:hover {
+	background-image: linear-gradient(#16c5e2,#979cb8);
+	color: #fff;
+	border: 7px solid #478fff;
+}
+#exp_bd1:hover p{
+    color:#fff;
 }
 /* exp part end */
 
